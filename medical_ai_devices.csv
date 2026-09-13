@@ -1,0 +1,11 @@
+device,intended_purpose,physical_harm_severity,clinical_decision_severity,autonomy_level,explainability,is_adaptive,reliance,fda_class,eu_ai_risk_category,notes
+IDx-DR,diagnosis,minor,severe,fully_autonomous,transparent,no,supporting_tool,Class II,High-Risk,"mechanistic/feature-based architecture, not end-to-end black-box; algorithm locked (non-adaptive)"
+Da Vinci Surgical System,treatment,high,catastrophic,human_in_loop,transparent,no,sole_source,Class II,High-Risk,Surgeon-controlled robotic system; mechanical/transparent operation; high reliance on surgeon input
+Medtronic MiniMed 670G,treatment,high,catastrophic,decision_support,transparent,yes,sole_source,Class III,High-Risk,"Hybrid closed-loop (basal automated, meal bolus manual = human-on-the-loop); Auto Mode adapts to patient patterns over time"
+Viz.ai,diagnosis,minor,severe,human_in_loop,black_box,no,supporting_tool,Class II,High-Risk,"Semi-explainable CNN; alerts clinician, does not act autonomously"
+AliveCor KardiaMobile,diagnosis,minor,moderate,human_in_loop,transparent,no,supporting_tool,Class II,High-Risk,"Explainable hybrid detection mode; personal ECG screening, not sole diagnostic source"
+PathAI,diagnosis,no_harm,severe,human_in_loop,transparent,no,supporting_tool,Class II,High-Risk,Visual/explainable output highlighting regions of interest; pathologist reviews and decides
+Sepsis Early-Warning System (EHR),prediction,no_harm ,severe,decision_support,black_box,yes,supporting_tool,None,High-Risk,"Hypothetical/illustrative example, not a specific named product"
+Radiology Triage Tool,prediction,minor,moderate,decision_support,transparent,no,supporting_tool,None,Limited-Risk,Hypothetical/illustrative example
+Symptom Checker Chatbot,prevention,no_harm,minor,decision_support,transparent,no,supporting_tool,None,Limited-Risk,Hypothetical/illustrative example
+Medication Reminder App,administrative,no_harm,minor,human_in_loop,transparent,no,supporting_tool,None,Minimal-Risk,Hypothetical/illustrative example
