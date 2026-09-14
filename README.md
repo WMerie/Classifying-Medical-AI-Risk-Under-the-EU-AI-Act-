@@ -47,7 +47,8 @@ The EU AI Act (Regulation 2024/1689) introduces a horizontal risk-tiering system
 Python · pandas · scikit-learn · matplotlib · Kaggle Notebooks
 
 ## Repository Contents
-
+-📓 View the full interactive notebook on Kaggle — full analysis (EDA, encoding, modeling, visualization)
+https://www.kaggle.com/code/wroudmrae/classifying-medical-ai-risk-under-the-eu-ai-act
 - `notebook.ipynb` — full analysis (EDA, encoding, modeling, visualization)
 - `medical_ai_devices.csv` — the curated dataset
 - `decision_tree.png` — visualization of the final decision tree
